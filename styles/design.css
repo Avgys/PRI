@@ -1,0 +1,92 @@
+
+section.design_block{
+    display: flex;
+    flex-direction: row;
+    width: inherit;
+    padding-top: 97px;
+    height: 460px;
+    background-color: white;
+    overflow: hidden;
+
+}
+
+section.design_block img.iPhone{
+    position: relative;  
+    margin-left: 123px;  
+    top: 50px;
+    /* left: 122px; */
+    height: 618px;
+}
+section.design_block div.right-design_block{
+    margin-left: 329px;
+    padding-top: 30px;  
+}
+section.design_block h2{
+font-size: 18px;
+letter-spacing: 3px;
+line-height: 22px;
+color: #16a085;
+font-weight: bold;
+font-family: "Gotham Rounded";
+}
+
+div.right-design_block p{    
+    
+    line-height: 22px;
+    margin-top: 34px;
+    padding-left:2px;   
+}
+
+.button-design_block{
+    border: 0px;
+    margin-top: 26px;
+    margin-left: 1px;
+    padding: 1px 1px 0 0 ;
+    border-color: #16a085;
+    width: 192px;
+    height: 51px;
+    border-radius: 3px;
+    background-color: #16a085;
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Gotham Rounded";
+}
+
+.button-design_block:hover{
+    cursor: pointer;    
+    background-color: #0a3a30;
+}
+div.design_block-control{
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 22px;
+    color: #373737;
+    font-weight: bold;
+    font-family: "Gotham Rounded";
+}
+
+section.design_block div.design_block-control{
+    margin-top: 40px;
+    letter-spacing: 2px;
+}
+
+section.design_block div.angles a{
+    margin-right: 20px;
+}
+
+section.design_block div.angles a:hover{
+    filter:opacity(50%);
+    cursor: pointer; 
+}
+
+.design_p{
+    width: 513px;     
+    font-size: 11px;
+    letter-spacing: 0.61mm;
+    color: #373737;
+    font-family: "Gotham Rounded";
+    font-weight: medium;
+}

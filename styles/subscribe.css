@@ -1,0 +1,92 @@
+section.subscribe{
+    min-height: 790px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width: inherit;    
+    background: url(../img/Livello_3.png) no-repeat;   
+    /* padding-top: 324px; */
+    margin-top:4px;
+    padding-left:4px;
+    /* overflow: hidden; */
+}
+
+.subscribe h2{
+    /* padding-left: 1px; */
+    margin-top:343px;
+    font-size: 24px;
+    letter-spacing: 0.23rem;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Gotham Rounded";
+}
+
+.subscribe form{
+    padding-right: 9px;
+}
+
+.subscribe div{
+    padding-top: 10px;
+    display: flex;
+}
+
+.subscribe input{
+    height: 100px;
+    width: 200px;
+}
+
+.subscribe input::placeholder{
+    color:black;
+}
+
+.button-email{
+    padding: 0;
+    padding-bottom: 2px;
+    border: 0px;
+    width: 63px;
+    height: 60px;
+    border-radius: 0 3px 3px 0;
+    background-color: #16a085;
+}
+.subscribe input.type_email
+{
+    padding: 0px;
+    border: 0;
+    padding-left:2px;
+    width: 280px;
+    height: 60px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 2px;
+    /* padding-left: 60px; */
+    color: #373737;
+    font-weight: bold;
+    font-family: "Gotham Rounded";
+}
+
+.subscribe form input:required:valid{
+ background-color: green;
+}
+
+.subscribe form input:required:invalid{
+    border-color: red;
+}
+
+.button-email:hover{
+    cursor: pointer;    
+    background-color: #0a3a30;
+}
+
+.button-email img:hover{
+    filter:opacity(50%);
+}
+
+
+.subscribe form .submit_image{
+    width: 20px;
+    height: 16px;
+    
+    background: green;
+    background-color: #16a085;
+}

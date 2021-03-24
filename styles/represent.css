@@ -1,0 +1,78 @@
+
+.represent{
+    display: flex;
+    width: inherit;
+    padding-top: 93px;
+    height: 400px;
+    background-color: #f5f6f7;
+    overflow: hidden;
+}
+
+section.represent div{
+    margin-left: 120px;
+}
+
+div.left-represent{
+    padding-left: 7px;
+}
+
+div.left-represent h2{
+    padding-top: 2px;
+    padding-left: 2px;
+    width: 513px;  
+    font-size: 18px;
+    letter-spacing: 2pt;
+    color: #16a085;
+    font-weight: bold;
+    font-family: "Gotham Rounded";
+    text-transform: uppercase;
+}
+
+
+div.left-represent p{        
+    padding-top: 2px;
+    padding-left: 2px;
+    margin-top: 38px;    
+    line-height: 24px;
+}
+
+
+section.represent img{
+    position: relative;    
+    bottom: 2x;
+    right: 130px;
+    height: 700px;
+}
+
+.represent_p{
+    width: 513px;     
+    font-size: 11px;
+    letter-spacing: 0.6mm;
+    color: #373737;
+    font-family: "Gotham Rounded";
+    font-weight: medium;
+}
+
+.button-represent {
+    border: 0px;
+    margin-top: 30px;
+    margin-left: 1px;
+    padding: 1px 1px 0 0 ;
+    border-color: #16a085;
+    width: 192px;
+    height: 51px;
+    border-radius: 3px;
+    background-color: #16a085;
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Gotham Rounded";
+}
+
+.button-represent:hover{
+    cursor: pointer;    
+    background-color: #0a3a30;
+}
+

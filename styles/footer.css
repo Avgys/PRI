@@ -1,0 +1,49 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+    width: inherit;
+    padding-top: 30px;
+}
+
+footer div.nav_credits{
+    padding-top: 11px;
+    padding-left: 126px;
+}
+
+footer div.nav_credits p {
+    padding-top: 6px;
+}
+footer span {
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #16a085;
+    font-weight: bold;
+    font-family: "Gotham Rounded";
+}
+footer span a{
+    font-size: 14px;
+    letter-spacing: 0.55mm;
+    color: #373737;
+    font-weight: bold;
+    font-family: "Gotham Rounded";
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+footer span a:hover{
+     cursor: pointer;
+    opacity: 50%; 
+}
+
+footer p{
+    font-size: 14px;
+    letter-spacing: 0.556mm;
+    color: #373737;
+    font-weight: bold;
+    font-family: "Gotham Rounded";
+}
+
+footer div img{
+    padding-top: 4px;
+    padding-right: 128px;
+}

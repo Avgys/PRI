@@ -1,0 +1,39 @@
+@import "./fonts/GothamRounded/fonts.css";
+@import "./styles/header.css";
+@import "./styles/your_life.css";
+@import "./styles/represent.css";
+@import "./styles/design.css";
+@import "./styles/our_community.css";
+@import "./styles/subscribe.css";
+@import "./styles/download.css";
+@import "./styles/footer.css";
+
+body{
+    font-family: "Gotham-Rounded";
+    margin : 0;    
+    box-sizing: border-box;
+    width : 1280px;
+    align-content: center;
+}
+
+.wrapper{
+    display: flex;
+}
+
+main{
+    width: 1280px;
+}
+
+.body{
+    margin: 0 auto;    
+    display: flex;
+    align-items: center;
+    justify-content: center;      
+    flex-direction: column;
+    flex: auto;    
+}
+
+.background{
+    background: url('./img/Livello1.png') no-repeat;
+    background-position: top;
+}
